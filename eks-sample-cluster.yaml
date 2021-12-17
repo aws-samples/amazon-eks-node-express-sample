@@ -1,0 +1,13 @@
+apiVersion: eksctl.io/v1alpha5
+kind: ClusterConfig
+
+metadata:
+  name: eks-demo
+  region: us-east-1
+
+managedNodeGroups:
+- name: ManagedNG-1
+  desiredCapacity: 1
+  instanceType: t3.small
+  ssh:
+    enableSsm: true
