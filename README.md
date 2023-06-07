@@ -62,7 +62,8 @@ $ eksctl create cluster -f eks-sample-cluster.yaml
 $ kubectl get nodes
 ```
 
-## Step-3: Deploy Kubernetes Objects 
+## Step-3: Deploy Kubernetes Objects
+Note: before deploying, open the `sample-k8s-deployment.yaml` file and update your container image url on line 24
 ```bash
 $ kubectl apply -f k8s/sample-k8s-deployment.yaml
 $ kubectl apply -f k8s/sample-k8s-service.yaml
