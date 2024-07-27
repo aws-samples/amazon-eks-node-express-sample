@@ -21,7 +21,7 @@ spec:
         app: eksdemo-frontend
     spec:
       containers:
-      - image: 388521517294.dkr.ecr.us-east-1.amazonaws.com/sample-nodejs-app
+      - image: 388521517294.dkr.ecr.us-west-2.amazonaws.com/sample-nodejs-app
         imagePullPolicy: Always
         name: eksdemo-frontend
         ports:
